@@ -1,0 +1,159 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Clarence Taylor
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Samuel 
+                        span.text-primary Butta
+                    .subheading.mb-5
+                        a(href='mailto:samuel@butta.com') samuel@butta.com
+                    p.lead.mb-5
+                        | Software engineer, science and technology enthusiast.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/samuel-butta-737516b3/' target="_blank")
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/buttasam' target="_blank")
+                            i.fab.fa-github
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                | Software engineer at 
+                                a(href="https://www.oracle.com/" target="_blank") Oracle
+                            p
+                                | I work a on cloud application called Intelligent Track and Trace based on microservice architecture.
+                        .flex-shrink-0
+                            span.text-primary October 2022 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                | Software engineer at 
+                                a(href="https://www.seznam.cz/" target="_blank") Seznam.cz, a.s.
+                            p
+                                | I worked with big data technologies such as Flink, Spark, Hadoop or HBase on fulltext search engine.
+                        .flex-shrink-0
+                            span.text-primary September 2018 - October 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                | Java developer at 
+                                a(href="https://etnetera.cz" target="_blank") Etnetera, a.s.
+                            p
+                                | I developed and maintained of large enterprise applications based on Java technologies or Scala for companies such as O2, Erste Group, Sazka, KKCG or Porsche.
+                        .flex-shrink-0
+                            span.text-primary June 2016 - November 2017
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Junior PHP developer at Profisites IT, s.r.o.
+                            p
+                                | I was part of a team developing web applications based on PHP/Nette framework.
+                        .flex-shrink-0
+                            span.text-primary Novemer 2013 - December 2014
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                a(href="https://fit.cvut.cz/" target="_blank") Czech Technical University in Prague - Faculty of Information Technology
+                            .subheading.mb-3 MASTER OF COMPUTER SCIENCE
+                            div I continued my masters degree in software engineering. My final thesis focused on real time big data analysis.
+                        .flex-shrink-0
+                            span.text-primary September 2017 - June 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                a(href="https://fit.cvut.cz/" target="_blank") Czech Technical University in Prague - Faculty of Information Technology
+                            .subheading.mb-3 BACHELOR OF COMPUTER SCIENCE
+                            div I finished my bachelor degree in software engineering.
+                        .flex-shrink-0
+                            span.text-primary September 2014 - June 2017
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0
+                                a(href="#") Academic Grammar School
+                            div I have graduated from one of the oldest grammar schools in Central Europe.
+                        .flex-shrink-0
+                            span.text-primary September 2010 - May 2014
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | My passion is good green tea. I am interested in physics, artificial intelligence and I am fascinated by math and logic.
+                    p.mb-0
+                        | Occasional floorball player, what I enjoy above all is quality time spent with my closest friends and family.
+
+ 
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
